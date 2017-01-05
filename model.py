@@ -16,7 +16,7 @@ class Student(Model):
     enterSchoolTime = CharField(null=True)  # 入学时间
     birthsday = CharField(null=True)  # 出生日期
     highschool = CharField(null=True)  # 毕业中学
-    nationality = CharField(null=True)  # 名族
+    nationality = CharField(null=True)  # 民族
     hometown = CharField(null=True)  # 籍贯
     politicsStatus = CharField(null=True)  # 政治面貌
     college = CharField(null=True)  # 学院
